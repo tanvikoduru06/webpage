@@ -1,0 +1,93 @@
+body {
+  background-color: white;
+}
+ul {
+  float: right;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 0.2px;
+  transition: 0.5s ease;
+}
+/* .nav-item-dropdown {
+  margin-top: 0px;
+  color: black;
+} */
+.navbar-brand {
+  margin-left: 80px;
+}
+
+/* h1 {
+  color: white;
+  margin-left: 150px;
+} */
+.para {
+  margin-left: 180px;
+  color: white;
+}
+.button {
+  margin-left: 180px;
+}
+.flex-container {
+  display: flex;
+  background-image: linear-gradient(#6800b3, #9f1aff);
+  height: 400px;
+}
+
+/* .flex-container > div {
+  /* background-color: transparent; */
+/* } */
+.main {
+  margin-top: 80px;
+  color: white;
+  margin-left: 100px;
+  font-size: x-large;
+  width: 50%;
+}
+.main2 {
+  color: white;
+  width: 50%;
+  margin-top: 120px;
+  font-size: 100px;
+  margin-left: 180px;
+}
+.with-us {
+  margin-top: 20px;
+  height: 120px;
+  background-color: #e6e6e6;
+}
+.para1 {
+  margin-left: 470px;
+  font-size: 19px;
+}
+.bt {
+  margin-left: 650px;
+}
+
+.discover {
+  margin-top: 20px;
+  background-color: #751aff;
+  height: 180px;
+}
+
+.heading {
+  color: white;
+  margin-left: 40px;
+  font-size: x-large;
+}
+.corona {
+  color: white;
+  margin-left: 40px;
+}
+.link {
+  margin-left: 40px;
+  color: white;
+}
