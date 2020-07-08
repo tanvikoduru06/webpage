@@ -1,162 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="static/css/style2.css" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <link rel="stylesheet" type="text/css" href="static/css/style2.css" />
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-</head>
+  <body>
+    <!-- navigation -->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzfJVVK2I_uPU86MN6H-I4hOAz0jCdKM9Pmw&usqp=CAU"
+              width="30"
+              height="30"
+              class="d-inline-block align-top"
+              alt=""
+            />Broadband
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-<body>
-  <!-- navigation -->
-  <section>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >TV <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sport</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Discover BT Halo
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Help</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My BT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Email</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
 
-        <a class="navbar-brand" href="#">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzfJVVK2I_uPU86MN6H-I4hOAz0jCdKM9Pmw&usqp=CAU"
-            width="30" height="30" class="d-inline-block align-top" alt="">Broadband
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">TV <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sport</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Discover BT Halo
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
-          <ul>
-            <li class="nav-item ">
-              <a class="nav-link " href="#">Help</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">My BT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#">Email</a>
-            </li>
-          </ul>
+    <!-- hero -->
+    <section class="px-5 hero">
+      <div class="row justify-content-around">
+        <div class="col-12 col-md-5 my-auto">
+          <h1 class="font-weight-light">
+            Do more online for less with superfast Fibre1
+          </h1>
+          <p>
+            You can now get our most popular fibre at our lowest ever price.<br />
+            It comes with the UK’s most powerful hub for a fast and reliable
+            connection at a great price.
+          </p>
+          <button type="button" class="btn btn-danger">
+            See Broadband deals
+          </button>
+        </div>
+        <div class="col-12 col-md-4 my-auto">
+          <h1 class="font-weight-bold">
+            Our most<br />
+            popular fibre<br /><span>at our lowest ever price</span>
+          </h1>
         </div>
       </div>
-    </nav>
-  </section>
+    </section>
 
-  <!-- hero -->
-  <section class="px-5 hero">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-5 my-auto">
-        <h1 class="font-weight-light">Do more online for less with superfast Fibre1</h1>
-        <p>You can now get our most popular fibre at our lowest ever price.<br> It comes with the UK’s most powerful hub
-          for
-          a fast and reliable connection at a great price.</p>
-        <button type="button" class="btn btn-danger">See Broadband deals</button>
+    <!-- Already with us -->
+    <section>
+      <div class="jumbotron text-center">
+        <p class="font-weight-bold">
+          Already with us ?<button type="button" class="btn btn-primary ml-4">
+            I'm a BT customer
+          </button>
+        </p>
       </div>
-      <div class="col-12 col-md-3 my-auto">
-        <h1 class="font-weight-bold">Our most<br> popular fibre<br><span>at our lowest ever price</span></h1>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Already with us -->
-  <section>
-    <div class="jumbotron text-center">
-      <p class="font-weight-bold">Already with us ?<button type="button" class="btn btn-primary ml-4">I'm a BT
-          customer</button></p>
-    </div>
-  </section>
-
-  <!-- We're here for you online -->
-  <section>
-    <div>
-      <h1>We're here for you online</h1>
-      <p>Coronavirus: We're keeping you connected with fast, contact-free delivery, top tech tips and 24/7 support.</p>
-      <button type="button" class="btn btn-link">Discover more</button>
-    </div>
-  </section>
-
-  <!-- save dollars -->
-  <section>
-    <div class="row">
-      <div class="col-6">
-        <h1>Save $120 on our VIP TV package</h1>
+    <!-- We're here for you online -->
+    <section>
+      <div class="px-4 online">
+        <br />
+        <h1>We're here for you online</h1>
         <p>
-          VIP includes the NOW TV Sky Sports Pass, NOW TV Sky Cinema Pass (RRP: £11.99), NOW TV Entertainment Pass, BT
-          Sport and more. Watch in razor-sharp focus as VIP also gives you access to a range of UHD/HD channels.</p>
-        <button type="button" class="btn btn-danger">Explore TV deals</button>
-        <div><button type="button" class="btn btn-link">Learn more about BT TV</button></div>
+          Coronavirus: We're keeping you connected with fast, contact-free
+          delivery, top tech tips and 24/7 support.
+        </p>
+        <button type="button" class="btn btn-link">Discover more</button>
       </div>
-      <div class="col-6">
-        <img src="" alt="">
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- images -->
-  <section class="images">
-    <div class="row">
-      <div class="col-4 card">
-        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Get guaranteed wi-fi in every room or £100 back</h5>
-          <p class="card-text"> Complete Wi-Fi extends your Smart Hub’s signal to every corner of your home. Buy now and
-            also get our most
-            popular fibre at our lowest ever price.</p>
-          <a href="#" class="btn btn-danger">See complete Wi-Fi deals</a>
+    <!-- save dollars -->
+    <section>
+      <div class="pt-3 save">
+        <div class="row justify-content-start">
+          <div class="col-12 col-md-5 my-auto">
+            <h1>Save $120 on our VIP TV package</h1>
+            <p>
+              VIP includes the NOW TV Sky Sports Pass, NOW TV Sky Cinema Pass
+              (RRP: £11.99), NOW TV Entertainment Pass, BT Sport and more. Watch
+              in razor-sharp focus as VIP also gives you access to a range of
+              UHD/HD channels.
+            </p>
+            <button type="button" class="btn btn-danger">
+              Explore TV deals
+            </button>
+            <div>
+              <button type="button" class="btn btn-link">
+                Learn more about BT TV
+              </button>
+            </div>
+          </div>
+          <div class="col-6">
+            <img src="" alt="" />
+          </div>
         </div>
       </div>
-      <div class="col-4 card">
-        <img class="card-img-top" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
-          alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Meet the next generation of fibre broadband</h5>
-          <p class="card-text">peeds up to 900Mb. The UK’s most reliable broadband technology. We call it Full Fibre and
-            it’s going to be a
-            game changer.</p>
-          <a href="#" class="btn btn-danger">See if Full Fibre is in your area</a>
+    </section>
+
+    <!-- images -->
+    <section class="images">
+      <div class="row justify-content-around">
+        <div class="col-5 card">
+          <img
+            class="card-img-top"
+            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Get guaranteed wi-fi in every room or £100 back
+            </h5>
+            <p class="card-text">
+              Complete Wi-Fi extends your Smart Hub’s signal to every corner of
+              your home. Buy now and also get our most popular fibre at our
+              lowest ever price.
+            </p>
+            <a href="#" class="btn btn-danger">See complete Wi-Fi deals</a>
+          </div>
+        </div>
+        <div class="col-5 card">
+          <img
+            class="card-img-top"
+            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Meet the next generation of fibre broadband
+            </h5>
+            <p class="card-text">
+              peeds up to 900Mb. The UK’s most reliable broadband technology. We
+              call it Full Fibre and it’s going to be a game changer.
+            </p>
+            <a href="#" class="btn btn-danger"
+              >See if Full Fibre is in your area</a
+            >
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-
-
-  <!-- scripts -->
-  <section>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
-  </section>
-</body>
-
+    <!-- scripts -->
+    <section>
+      <script
+        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"
+      ></script>
+    </section>
+  </body>
 </html>

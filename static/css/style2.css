@@ -1,42 +1,86 @@
-.container{
-    max-width: 1340px !important;
+.container {
+  max-width: 1340px !important;
 }
-.hero{
+ul {
+  float: right;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 0.2px;
+  transition: 0.5s ease;
+}
+.hero {
   background-image: linear-gradient(#6800b3, #9f1aff);
 }
-.hero .row{
+.hero .row {
   min-height: 450px;
 }
-.hero div h1{
-    color: white;
-    font-size: 55px;
+.hero div h1 {
+  color: white;
+  font-size: 55px;
 }
-.hero div span{
-    color: palevioletred;
-    font-size: 49px;
+.hero div span {
+  color: palevioletred;
+  font-size: 49px;
 }
-.hero div p{
-    color: white;
-    font-size: 20px;
+.hero div p {
+  color: white;
+  font-size: 20px;
 }
-.btn-primary{
-    background-color: #6400AA !important;
-    border: transparent !important;
-    color: white;
+.btn-primary {
+  background-color: #6400aa !important;
+  border: transparent !important;
+  color: white;
 }
-.btn-primary:hover{
-    background-color: #6400ee !important;
+.btn-primary:hover {
+  background-color: #6400ee !important;
 }
-.btn-primary:focus{
-    box-shadow: none !important;
+.btn-primary:focus {
+  box-shadow: none !important;
 }
 
+.card {
+  border: none !important;
+}
+.online {
+  background-color: #6400ee;
+  min-height: 150px;
+}
+.online h1 {
+  color: white;
+  font-size: x-large;
+}
+.online p {
+  color: white;
+  font-size: large;
+}
+.online button {
+  color: white;
+  padding: 1px;
+}
+.save {
+  background-image: linear-gradient(to right, #1a001a, #330033, #a93da9);
+  margin-top: 30px;
+  min-height: 500px;
+}
 
-
-
-
-
-
-.card{
-    border: none !important;
+.save .row {
+  padding: 70px;
+  color: white;
+  font-size: larger;
+}
+.save button {
+  color: white;
+  padding: 8px;
+}
+.images {
+  padding-top: 70px;
 }
