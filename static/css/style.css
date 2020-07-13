@@ -18,7 +18,7 @@ ul li a {
   transition: 0.5s ease;
 }
 .main h2 {
-  padding-left: 60px;
+  padding-left: 90px;
   font-size: x-large;
 }
 .main {
@@ -26,6 +26,7 @@ ul li a {
   min-height: 400px;
 }
 .main h1 {
+  padding-left: 50px;
   color: white;
   font-size: xx-large;
 }
@@ -45,5 +46,12 @@ ul li a {
   font-size: 12px;
 }
 .purple {
+  text-align: center;
+  color: white;
   background-color: #663399;
+}
+
+.purple button {
+  color: white;
+  border-color: transparent;
 }
