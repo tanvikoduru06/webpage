@@ -20,19 +20,27 @@ ul li a {
 .main h2 {
   padding-left: 90px;
   font-size: x-large;
+  text-align: center;
 }
 .main {
   background-image: linear-gradient(aqua, deepskyblue);
   min-height: 400px;
+  display: flex;
+  flex-flow: column nowrap;
 }
 .main h1 {
   padding-left: 50px;
   color: white;
   font-size: xx-large;
+  text-align: center;
 }
 .main p {
   color: white;
   font-size: 12px;
+  text-align: center;
+}
+.main form {
+  text-align: center;
 }
 .main button {
   color: white;
@@ -44,6 +52,30 @@ ul li a {
 .main h6 {
   color: white;
   font-size: 12px;
+}
+.search h2 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column nowrap;
+  align-items: center;
+}
+.jumbotron {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.jumbotron h2 {
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  text-align: center;
+}
+.jumbotron h6 {
+  text-align: center;
 }
 .purple {
   text-align: center;
